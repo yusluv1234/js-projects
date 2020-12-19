@@ -60,7 +60,7 @@ function checkEmail(input) {
 
       // Get fieldname 
       function getFieldName(input) {
-          return input.id.chartAt(0).toUpperCase() + input.id.slice(1);
+          return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
 
   }
