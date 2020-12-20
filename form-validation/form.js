@@ -47,7 +47,7 @@ function checkEmail(input) {
             showError(input, `${getFieldName(input)} 
             must less than ${max} characters`);
           } else {
-              showSuccess(input)
+              showSuccess(input);
           }
       };
 
@@ -71,7 +71,7 @@ form.addEventListener('submit', function(e) {
 
     checkRequired([username, email, password, password2]);
     checkLength(username, 3, 15);
-    checkLength(password, 6, 25  );
+    checkLength(password, 6, 25);
     checkEmail(email);
     checkPasswordsMatch(password, password2);
 });
@@ -99,4 +99,4 @@ form.addEventListener('submit', function(e) {
     //     showError(password2, 'Confirm Password is required');
     // } else {
     //     showSuccess(password2);
-    // }
+    // }  
