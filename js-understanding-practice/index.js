@@ -33,6 +33,10 @@
 // LOOPS for, while, Do...while, for...in, for...of
 // for (initialExpression, condition, increment)
 
-for (let i = 1; i <= 5; i++) {
-  console.log('Hello World', i)
+// for (let i = 1; i <= 5; i++) {
+//   console.log('Hello World', i)
+// }
+
+for (let i = 0; i <= 5; i++) {
+  if (i % 2 !== 0) console.log(i) // if it's !== that's Odd number but If == that's Even Number
 }
