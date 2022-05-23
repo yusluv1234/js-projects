@@ -40,9 +40,8 @@
 // for (let i = 0; i <= 5; i++) {
 //   if (i % 2 !== 0) console.log(i) // if it's !== that's Odd number but If == that's Even Number
 // }
-
-let i = 0;
-while(i <= 5) {
+let i = 1;
+while(i <= 100) {
   if (i % 2 !== 0) console.log(i);
   i++
 }
