@@ -11,21 +11,23 @@
 //  else
 //  console.log("Good Evening!")
 
-let role;
-switch(role) {
-  case 'guest':
-  console.log('Guest User')
-  break;
-  case 'moderator':
-    console.log('Moderator User')
-    break;
-    default:
-      console.log('Unknown User')
-}
+// let role;
+// switch(role) {
+//   case 'guest':
+//   console.log('Guest User')
+//   break;
+//   case 'moderator':
+//     console.log('Moderator User')
+//     break;
+//     default:
+//       console.log('Unknown User')
+// }
 
-// Using If and Else for this switch and case
-if (role === 'moderator')
-  console.log('Moderator User');
-else if (role === 'guest')
-  console.log('Guest User');
-  else console.log('Unknown User')
+// // Using If and Else for this switch and case
+// if (role === 'moderator')
+//   console.log('Moderator User');
+// else if (role === 'guest')
+//   console.log('Guest User');
+//   else console.log('Unknown User')
+
+// LOOPS for, while, Do...while, for...in, for...of
