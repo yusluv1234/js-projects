@@ -31,3 +31,8 @@
 //   else console.log('Unknown User')
 
 // LOOPS for, while, Do...while, for...in, for...of
+// for (initialExpression, condition, increment)
+
+for (let i = 1; i <= 5; i++) {
+  console.log('Hello World', i)
+}
