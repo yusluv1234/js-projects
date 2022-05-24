@@ -72,9 +72,14 @@
 //   console.log(color)
 
 // Function that declare Max number
-  let number = max(10, 9)
-  console.log(number)
+  // let number = max(10, 9)
+  // console.log(number)
 
-  function max(a, b) {
-    return (a > b) ? a : b;
+  // function max(a, b) {
+  //   return (a > b) ? a : b;
+  // }
+  console.log(isLandscape(50, 90))
+
+  function isLandscape(width, height) {
+    return (width > height);
   }
