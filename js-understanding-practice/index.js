@@ -78,8 +78,25 @@
   // function max(a, b) {
   //   return (a > b) ? a : b;
   // }
-  console.log(isLandscape(50, 90))
+  // console.log(isLandscape(50, 90))
 
-  function isLandscape(width, height) {
-    return (width > height);
+  // function isLandscape(width, height) {
+  //   return (width > height);
+  // }
+
+  const output = fizzBuzz(7);
+  console.log(output);
+
+  function fizzBuzz(input) {
+    if (typeof input !== 'number'){
+    return NaN;
+    }else if ((input % 3 === 0) && (input % 5 === 0)){
+    return "FizzBuzz";
+  }else if (input % 3 === 0){
+    return "Fizz";
+  }else if (input % 5 === 0){
+    return "Buzz";
+  }
+  return input;
+
   }
