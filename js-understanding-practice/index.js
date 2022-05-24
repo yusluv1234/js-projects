@@ -67,6 +67,14 @@
 // for (let index in colors)
 //   console.log(index, colors[index]);
 
-const colors = ['red', 'green', 'blue']
-for (let color of colors)
-  console.log(color)
+// const colors = ['red', 'green', 'blue']
+// for (let color of colors)
+//   console.log(color)
+
+// Function that declare Max number
+  let number = max(10, 9)
+  console.log(number)
+
+  function max(a, b) {
+    return (a > b) ? a : b;
+  }
