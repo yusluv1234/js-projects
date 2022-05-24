@@ -33,6 +33,7 @@
 // // LOOPS for, while, Do...while, for...in, for...of
 // // for (initialExpression, condition, increment)
 
+//for Loop
 // for (let i = 1; i <= 5; i++) {
 //   console.log('Hello World', i)
 // }
@@ -40,8 +41,28 @@
 // for (let i = 0; i <= 5; i++) {
 //   if (i % 2 !== 0) console.log(i) // if it's !== that's Odd number but If == that's Even Number
 // }
-let i = 1;
-while(i <= 100) {
-  if (i % 2 !== 0) console.log(i);
-  i++
-}
+
+// while loop
+// let i = 1;
+// while(i <= 100) {
+//   if (i % 2 !== 0) console.log(i);
+//   i++
+// }
+
+// do-while loop
+// let i = 0
+// do {
+//   i++
+// } while(i < 5)
+
+// For In Loop
+const person = {
+  name: 'Jolayemi', age: 24,
+};
+
+for (let key in person)
+console.log(key, person[key])
+
+const colors = ['red', 'green', 'blue']
+for (let index in colors)
+  console.log(index, colors[index]);
