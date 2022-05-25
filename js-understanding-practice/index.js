@@ -100,3 +100,16 @@
   // return input;
 
   // }
+
+  checkSpeed(180);
+
+  function checkSpeed(speed) {
+    if (speed >= 60 && speed < 75) 
+    console.log("Okay");
+    else if (speed >= 75 && speed < 100)
+    console.log('1 Point')
+    else if (speed >= 100 && speed <= 180)
+    console.log("Suspend License")
+    else
+    console.log(speed)
+  }
