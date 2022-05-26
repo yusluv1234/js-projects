@@ -101,15 +101,31 @@
 
   // }
 
-  checkSpeed(180);
+  // checkSpeed(180);
 
+  // function checkSpeed(speed) {
+  //   if (speed >= 60 && speed < 75) 
+  //   console.log("Okay");
+  //   else if (speed >= 75 && speed < 100)
+  //   console.log('1 Point')
+  //   else if (speed >= 100 && speed <= 180)
+  //   console.log("Suspend License")
+  //   else
+  //   console.log(speed)
+
+  checkSpeed(130);
+  
   function checkSpeed(speed) {
-    if (speed >= 60 && speed < 75) 
-    console.log("Okay");
-    else if (speed >= 75 && speed < 100)
-    console.log('1 Point')
-    else if (speed >= 100 && speed <= 180)
-    console.log("Suspend License")
-    else
-    console.log(speed)
+    const speedLimit = 70;
+    const kmPerPoint = 5;
+
+    if (speed < speedLimit + kmPerPoint)
+    console.log('Okay');
+    else {
+      const points = Math.floor((speed - speedLimit) / kmPerPoint);
+      if(points >= 12)
+      console.log('License suspended');
+      else
+      console.log('Points', points);
+    }
   }
